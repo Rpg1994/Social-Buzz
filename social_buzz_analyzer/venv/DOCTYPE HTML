@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Social Buzz Analyzer</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Crypto Social Buzz Analyzer</h1>
+    <div>
+        {{ graph_html|safe }}
+    </div>
+    <div>
+        {{ table|safe }}
+    </div>
+</body>
+</html>
